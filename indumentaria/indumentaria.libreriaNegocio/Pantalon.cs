@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace indumentaria.libreriaNegocio
 {
-    public class Pantalon
+    public class Pantalon : Indumentaria
     {
         private int _material;
-        private int _tieneBolsillos;
-        public int TieneBolsillos
+        private bool _tieneBolsillos;
+        public Pantalon(int codigo, string talle, double precio, int material, bool tieneBolsillos)
+        {
+            _codigo = codigo;
+            _stock = 3;
+            _talle = talle;
+            _precio = precio;
+            _material = material;
+            _tieneBolsillos = tieneBolsillos;
+        }
+        public bool TieneBolsillos
         {
             get { return _tieneBolsillos; }
             set { _tieneBolsillos = value; }
@@ -19,6 +28,10 @@ namespace indumentaria.libreriaNegocio
         {
             get { return _material; }
             set { _material = value; }
+        }
+        public override string GetDetalle()
+        {
+            return "Pantalón talle " + Talle + " - $" + Precio;
         }
 
     }

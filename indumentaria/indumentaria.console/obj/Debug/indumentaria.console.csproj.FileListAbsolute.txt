@@ -1,0 +1,10 @@
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\obj\Debug\indumentaria.console.csproj.CoreCompileInputs.cache
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\bin\Debug\indumentaria.console.exe.config
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\bin\Debug\indumentaria.console.exe
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\bin\Debug\indumentaria.console.pdb
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\bin\Debug\indumentaria.libreriaNegocio.dll
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\bin\Debug\indumentaria.libreriaNegocio.pdb
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\obj\Debug\indumentaria.console.csprojAssemblyReference.cache
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\obj\Debug\indumentaria.console.csproj.CopyComplete
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\obj\Debug\indumentaria.console.exe
+C:\Users\eitan\Repositories\CAI\CAI-indumentaria\indumentaria\indumentaria.console\obj\Debug\indumentaria.console.pdb

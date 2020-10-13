@@ -1,4 +1,5 @@
-﻿using System;
+﻿using indumentaria.libreriaNegocio.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace indumentaria.libreriaNegocio
 {
-    class TiendaRopa
+    public class TiendaRopa
     {
         List<Indumentaria> _inventario;
-        List<Ventas> _ventas;
+        List<Venta> _ventas;
         int _ultimoCodigo;
 
-        public List<Indumentaria> Inventario { get => _inventario; set => _inventario = value; }
-        public List<Ventas> Ventas { get => _ventas; set => _ventas = value; }
+        //public List<Indumentaria> Inventario { get => _inventario; set => _inventario = value; }
+        public List<Venta> Ventas { get => _ventas; set => _ventas = value; }
         public int UltimoCodigo { get => _ultimoCodigo; set => _ultimoCodigo = value; }
         public int GetProximoCodigo(){
             return _ultimoCodigo + 1;
@@ -36,7 +37,12 @@ namespace indumentaria.libreriaNegocio
         }
         public List<Indumentaria> Listar()
         {
-            throw new NotImplementedException();
+            if (_inventario.Count <= 0)
+            {
+                throw new TiendaVaciaException();
+            }
+
+            return _inventario;
         }
         public List<Venta> ListarVentas() {
             throw new NotImplementedException();
