@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace indumentaria.libreriaNegocio.Exceptions
 {
-    public class TiendaVaciaException : Exception
+    public class IndumentariaNoEncontradaException : Exception
     {
-        public TiendaVaciaException() : base("La tienda no tiene productos para listar") { }
+        public IndumentariaNoEncontradaException() : base ("Indumentaria no encontrada") { }
     }
 }

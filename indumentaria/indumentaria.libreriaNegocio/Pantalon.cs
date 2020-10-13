@@ -12,6 +12,7 @@ namespace indumentaria.libreriaNegocio
         private bool _tieneBolsillos;
         public Pantalon(int codigo, string talle, double precio, int material, bool tieneBolsillos)
         {
+            _tipo = new IndumentariaFormal();
             _codigo = codigo;
             _stock = 3;
             _talle = talle;

@@ -8,7 +8,7 @@ namespace indumentaria.libreriaNegocio
 {
     public abstract class Indumentaria
     {
-        TipoIndumentaria _tipo;
+        protected TipoIndumentaria _tipo;
         protected int _codigo;
         protected int _stock;
         protected string _talle;

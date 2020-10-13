@@ -45,6 +45,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Cliente.cs" />
     <Compile Include="EstadoVenta.cs" />
+    <Compile Include="Exceptions\IndumentariaNoEncontradaException.cs" />
     <Compile Include="Exceptions\SinStockException.cs" />
     <Compile Include="Exceptions\TiendaVaciaException.cs" />
     <Compile Include="Indumentaria.cs" />

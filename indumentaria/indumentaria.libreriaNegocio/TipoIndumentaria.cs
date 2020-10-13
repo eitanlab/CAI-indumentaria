@@ -8,8 +8,8 @@ namespace indumentaria.libreriaNegocio
 {
     public abstract class TipoIndumentaria
     {
-        string _origen;
-        private double _porcentajeAlgodon;
+        protected string _origen;
+        protected double _porcentajeAlgodon;
         public double ProcentajeAlgodon { get => _porcentajeAlgodon; set => _porcentajeAlgodon = value; }
         public string Origen { get => _origen; set => _origen = value; }
     }

@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace indumentaria.libreriaNegocio
 {
-    class IndumentariaCasual
+    public class IndumentariaCasual : TipoIndumentaria
     {
+        public IndumentariaCasual()
+        {
+            _origen = "Argentina";
+            _porcentajeAlgodon = 15;
+        }
     }
 }

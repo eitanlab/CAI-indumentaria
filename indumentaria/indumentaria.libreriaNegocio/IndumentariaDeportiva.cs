@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace indumentaria.libreriaNegocio
 {
-    class IndumentariaDeportiva
+    public class IndumentariaDeportiva : TipoIndumentaria
     {
+        public IndumentariaDeportiva()
+        {
+            _origen = "Paraguay";
+            _porcentajeAlgodon = 50;
+        }
     }
 }
